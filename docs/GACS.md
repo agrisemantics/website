@@ -6,7 +6,7 @@ GACS is a concept scheme with circa 15,000 concepts selected from, and mapped to
 
 ## Download GACS
 
-Version 4.0 of GACS can be [downloaded as a ZIP file](https://github.com/agrisemantics/agrisemantics.github.io/blob/master/downloads/gacs-4.0.zip) holding the main concept scheme for GACS in the Turtle and RDF/XML formats.
+Version 4.0 of GACS can be [downloaded as a ZIP file](https://github.com/agrisemantics/website/blob/master/downloads/gacs-4.0.zip) holding the main concept scheme for GACS in the Turtle and RDF/XML formats.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The Global Agricultural Concept Scheme (GACS) is licensed by the GACS Working Group under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 

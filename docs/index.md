@@ -13,4 +13,4 @@ of semantic interoperability in agricultural data have been addressed in:
 * [Global Agricultural Concept Scheme (GACS)](https://agrisemantics.org/GACS/).
 * [GODAN Action VEST / AgroPortal map of standards](http://vest.agrisemantics.org)
 
-![](https://www.rd-alliance.org/system/files/documents/SEMANTICS-RICE_poster_LD.jpg)
+![](https://github.com/agrisemantics/website/blob/master/images/SEMANTICS-RICE_poster_LD.jpg)
