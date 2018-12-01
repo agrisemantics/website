@@ -10,3 +10,8 @@ Backend for https://agrisemantics.github.io.
     * The command must be run from the root directory of this repo.  
     * Behind the scenes, `mkdocs gh-deploy` builds HTML docs from the Markdown sources, uses the `ghp-import` tool to commit them to the `gh-pages` branch, and pushes the `gh-pages` branch to GitHub.
 
+#### Using [Git Large File Storage](https://git-lfs.github.com/)
+
+* Install in every local copy of the repo with with `git lfs install`
+* See [`.gitattributes`](https://github.com/agrisemantics/website/blob/master/.gitattributes) for list of file types stored using Github LFS.
+  * Initially, ZIP files are stored with LFS.
