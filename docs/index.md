@@ -7,6 +7,7 @@ solve specific problems in agriculture depends in part on whether they are
 based on compatible concepts ("semantic interoperability").  The practicalities
 of semantic interoperability in agricultural data have been addressed in:
 
+* [AgroPortal](http://agroportal.lirmm.fr/)
 * [RDA Agrisemantics Working
   Group](https://www.rd-alliance.org/groups/agrisemantics-wg.html) of the
   Research Data Alliance.  
