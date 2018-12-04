@@ -1,6 +1,6 @@
 site_name: Agrisemantics
 theme: 'readthedocs'
-repo_url: https://github.com/agrisemantics/agrisemantics.github.io
+repo_url: https://github.com/agrisemantics/website
 repo_name: 'Github'
 edit_uri: 'edit/master/docs/'
 site_description: 'Agrisemantics home page'
