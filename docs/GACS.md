@@ -4,6 +4,10 @@ The Global Agricultural Concept Scheme (GACS) was created between 2014 and 2016 
 
 GACS is a concept scheme with circa 15,000 concepts selected from, and mapped to, the most frequently used concepts of three larger concept schemes: AGROVOC (FAO), CAB Thesauris (CABI), and NAL Thesaurus (NAL).  The [editorial policies for GACS](http://agrisemantics.org/gacs-qip/) follow best practices of modern thesaurus design as reflected in ISO 25964, "Thesauri and interoperability with other vocabularies", and is expressed in Simple Knowledge Organization System (SKOS), with some extensions, for publication as Linked Data.  
 
+## Browse GACS online
+
+Version 4.0 of GACS can be [viewed, navigated and searched in a browser](http://browser.agrisemantics.org/gacs/en/) for human readable consumption via the [Skosmos](http://www.skosmos.org/) instance.
+
 ## Download GACS
 
 Version 4.0 of GACS can be [downloaded as a ZIP file](https://github.com/agrisemantics/website/blob/master/downloads/gacs-4.0.zip) holding the main concept scheme for GACS in the Turtle and RDF/XML formats.
