@@ -1,6 +1,6 @@
 # Agrisemantics
 
-Backend for https://agrisemantics.github.io.
+Backend for https://agrisemantics.org
 
 #### Build the website using MkDocs
 

@@ -6,5 +6,5 @@ edit_uri: 'edit/master/docs/'
 site_description: 'Agrisemantics home page'
 nav:
 - Agrisemantics: index.md
-- Global Agricultural Concept Scheme: GACS.md
+- Global Agricultural Concept Space: GACS.md
 
