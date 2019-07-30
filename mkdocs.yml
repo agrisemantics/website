@@ -1,10 +1,9 @@
 site_name: Agrisemantics
-theme: 'readthedocs'
+theme: 'mkdocs'
 repo_url: https://github.com/agrisemantics/website
 repo_name: 'Github'
 edit_uri: 'edit/master/docs/'
 site_description: 'Agrisemantics home page'
 nav:
-- Agrisemantics: index.md
+- Home : index.md
 - Global Agricultural Concept Space: GACS.md
-
