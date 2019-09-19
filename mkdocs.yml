@@ -4,6 +4,10 @@ repo_url: https://github.com/agrisemantics/website
 repo_name: 'Github'
 edit_uri: 'edit/master/docs/'
 site_description: 'Agrisemantics home page'
+dev_addr: '127.0.0.1:8080'
 nav:
 - Home : index.md
-- Global Agricultural Concept Space: GACS.md
+- GACS:
+    - about GACS: GACS.md
+    - guidelines: guidelines.md
+    - references: reference.md
