@@ -3,12 +3,12 @@
 A GACS concept is formally defined by its "semantic neighborhood", a web of
 associative and hierarchical relations with other concepts in GACS.  The
 concept
-[_alfalfa_](http://tester-os-kktest.lib.helsinki.fi/gacsdemo/gacs/en/page/C1235),
+[_alfalfa_](http://id.agrisemantics.org/gacs/C1235),
 for example, is defined by relations such as:
 
 * _alfalfa_ `hasType` _Product_
 * _alfalfa_ `BT` _legumes_
-* _alfalfa_ `RT` _fodder plants_ 
+* _alfalfa_ `RT` _fodder plants_
 * _fodder plants_ `RT` _livestock feeding_
 * _fodder plants_ `RT` _forage_
 * _fodder plants_ `RT` _hay_
@@ -39,14 +39,14 @@ formally distinguish between "is a" and "part of" relations. In GACS, _broader_
 and _narrower_ are generally intended to imply general-to-specific "is a"
 relations, though not in a formally strict ontological sense, and there are
 plenty of exceptions (for example,
-[Maryland](http://tester-os-kktest.lib.helsinki.fi/gacsdemo/gacs/en/page/C10429),
+[Maryland](http://id.agrisemantics.org/gacs/C10429),
 which is "part of" the [North Eastern States
-(USA)](http://tester-os-kktest.lib.helsinki.fi/gacsdemo/gacs/en/page/C20128)).
+(USA)](http://id.agrisemantics.org/gacs/C20128)).
 
 #### Top-level concepts
 
 All concepts in GACS are grouped under three concepts that have no broader
-concepts (top-level concepts): 
+concepts (top-level concepts):
 
 * _Objects_: material things that can be seen, touched, visited (locations),
   including conceptual objects such as ideas and models.
@@ -107,7 +107,7 @@ out to library-oriented authority files such as the Library of Congress Name
 Authority File, GND (German union authority), BNF, VIAF and ISNI. As an
 example, see the Wikidata entry for
 [Alberta](https://www.wikidata.org/wiki/Q1951)) and the corresponding [GACS
-concept](http://tester-os-kktest.lib.helsinki.fi/gacsdemo/gacs/en/page/C15421).
+concept](http://id.agrisemantics.org/gacs/C15421).
 
 This exercise suggests a model by which GACS might, in the future, devolve or
 delegate responsibility for specific types of GACS concepts to external
@@ -121,4 +121,3 @@ credibly persistent, in accordance with explicit policies, if GACS itself is to
 be credibly deployable.  On the other hand, the GACS URIs also provide a
 fallback option should the external authority ever cease operation, a
 contingency that would be prudent to anticipate by policy.
-
