@@ -11,7 +11,7 @@ of semantic interoperability in agricultural data have been addressed in:
 * [RDA Agrisemantics Working
   Group](https://www.rd-alliance.org/groups/agrisemantics-wg.html) of the
   Research Data Alliance.  
-* [Global Agricultural Concept Space (GACS)](https://agrisemantics.org/GACS/).
+* [Global Agricultural Concept Space (GACS)](https://agrisemantics.org/GACS/)
 * [GODAN Action VEST / AgroPortal map of standards](http://vest.agrisemantics.org)
 
 ![](https://www.rd-alliance.org/system/files/documents/SEMANTICS-RICE_poster_LD.jpg)
