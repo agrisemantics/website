@@ -1,8 +1,8 @@
-Concepts of type "organism" are 29% of GACS Beta 1.6.  Of these, 
+Concepts of type "organism" are 29% of GACS Beta 1.6.  Of these,
 over 83% have a scientific name as prefLabel. The remaining 17%
 includes:
 
-* __common names__: goats, lizards, ducks, shrimps, honey bees, 
+* __common names__: goats, lizards, ducks, shrimps, honey bees,
   mangolds.
 
 * __names of organism groups__: young animals, plant parasitic nematodes,
@@ -33,7 +33,7 @@ orthogonal to the distinction between scientific and common names.  A
 scientific name may be the preferred label (e.g., "Leptinotarsa decemlineata")
 and the corresponding common name the alternative ("Colorado potato beetle").
 Vice versa, the common name may be preferred ("dogs") and the scientific name
-alternative ("Canis lupus familiaris"). 
+alternative ("Canis lupus familiaris").
 
 ![Decision tree from March 2015 meeting](names.png)
 
@@ -55,4 +55,4 @@ For example:
     ----------------------------------------------------------------------------------------
 
 Lori Finch prepared a note about [common names and Latin names in
-GACS](https://github.com/agrisemantics/gacs-qip/blob/master/documentation/Common_Names_and_Latin_Names-GACS.docx).
+GACS](https://github.com/agrisemantics/website/raw/master/pdfs/Common_Names_and_Latin_Names-GACS.pdf).
