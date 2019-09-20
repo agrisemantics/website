@@ -1,5 +1,5 @@
 site_name: Agrisemantics
-theme: 'mkdocs'
+theme: 'windmill'
 repo_url: https://github.com/agrisemantics/website
 repo_name: 'Github'
 edit_uri: 'edit/master/docs/'
@@ -8,6 +8,13 @@ dev_addr: '127.0.0.1:8080'
 nav:
 - Home : index.md
 - GACS:
-    - about GACS: GACS.md
-    - guidelines: guidelines.md
-    - references: reference.md
+    - 'About GACS': GACShome.md
+    - Guidelines:
+        - 'Concepts': concepts.md
+        - 'Concept relations': relations.md
+        - 'Concept definitions': definitions.md
+        - 'Concept labels': labels.md
+        - 'Scientific and common names': names.md
+        - 'Thematic classification': thematic_classification.md
+        - 'Scope notes': scopenotes.md
+    - 'Reference material': reference.md
