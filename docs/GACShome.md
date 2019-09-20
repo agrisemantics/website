@@ -14,7 +14,7 @@ GACS can be [viewed, navigated and searched in a browser](http://browser.agrisem
 
 #### Download GACS
 
-GACS can be [downloaded as a ZIP file](https://github.com/agrisemantics/website/blob/master/downloads/gacs-4.0.zip) holding the main concept scheme for GACS in the Turtle and RDF/XML formats.
+GACS can be [downloaded as a ZIP file](https://github.com/agrisemantics/website/raw/master/downloads/gacs-core-scheme.zip) holding the main concept scheme for GACS in the Turtle and RDF/XML formats.
 
 #### Contribute
 All are welcome.  We currently use the issue tracker on the [gacs-scheme](https://github.com/gacs/gacs-scheme) github repository to log requests, bugs, and discuss additions and edits.  Please also sign up for the [mailing list](https://groups.google.com/forum/#!forum/gacs-wg)!
