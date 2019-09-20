@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Concept relations - Agrisemantics</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Defining concepts with semantic relations", url: "#_top", children: [
+          ]},
+          {title: "Broader, narrower, and related concepts", url: "#broader-narrower-and-related-concepts", children: [
+          ]},
+          {title: "Top-level concepts", url: "#top-level-concepts", children: [
+          ]},
+          {title: "Concept types", url: "#concept-types", children: [
+          ]},
+          {title: "Custom (non-SKOS) relations between concepts", url: "#custom-non-skos-relations-between-concepts", children: [
+          ]},
+          {title: "Mapping to concepts in external vocabularies", url: "#mapping-to-concepts-in-external-vocabularies", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../definitions/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../definitions/" class="btn btn-xs btn-link">
+        Concept definitions
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../concepts/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../concepts/" class="btn btn-xs btn-link">
+        Concepts
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h4 id="defining-concepts-with-semantic-relations">Defining concepts with semantic relations</h4>
+<p>A GACS concept is formally defined by its "semantic neighborhood", a web of
+associative and hierarchical relations with other concepts in GACS.  The
+concept
+<a href="http://id.agrisemantics.org/gacs/C1235"><em>alfalfa</em></a>,
+for example, is defined by relations such as:</p>
+<ul>
+<li><em>alfalfa</em> <code>hasType</code> <em>Product</em></li>
+<li><em>alfalfa</em> <code>BT</code> <em>legumes</em></li>
+<li><em>alfalfa</em> <code>RT</code> <em>fodder plants</em></li>
+<li><em>fodder plants</em> <code>RT</code> <em>livestock feeding</em></li>
+<li><em>fodder plants</em> <code>RT</code> <em>forage</em></li>
+<li><em>fodder plants</em> <code>RT</code> <em>hay</em></li>
+</ul>
+<p>These relations are reflected in the GACS definition of <em>alfalfa</em> as: "A
+valuable <em>leguminous crop</em> for <em>forage</em> or <em>hay</em> used in <em>livestock feeding</em>".
+However, less than 20% of the concepts in GACS have definitions, and crafting
+definitions for the other 80% would be expensive, especially across
+translations in multiple languages.  Moreover, narrative definitions are less
+useful than semantic relations for automated processing because relations
+between concepts can only roughly be computed from label strings, sentence
+parsing, and the co-occurrence of words.  </p>
+<p>Explicit semantic relations provide a basis for browsing broader, narrower, or
+related concepts and for expanding queries.  They can be used to disambiguate
+meanings and to check concept hierarchies for consistency.  Because they
+cluster related examples, they are less vulnerable than definitions to
+misinterpretation by translators.  In GACS, definitions are "nice to have", but
+semantic relations are essential.  For maintainability, the set of semantic
+relations used in GACS has been kept as simple and obvious as possible.</p>
+<h4 id="broader-narrower-and-related-concepts">Broader, narrower, and related concepts</h4>
+<p>GACS concepts are linked among themselves with <em>related</em>, <em>broader</em>, and
+<em>narrower</em> relations as defined in SKOS, which are themselves based on standard
+thesaurus relations (<em>RT</em>, <em>BT</em>, and <em>NT</em>).  <em>Broader</em> and <em>narrower</em> do not
+formally distinguish between "is a" and "part of" relations. In GACS, <em>broader</em>
+and <em>narrower</em> are generally intended to imply general-to-specific "is a"
+relations, though not in a formally strict ontological sense, and there are
+plenty of exceptions (for example,
+<a href="http://id.agrisemantics.org/gacs/C10429">Maryland</a>,
+which is "part of" the <a href="http://id.agrisemantics.org/gacs/C20128">North Eastern States
+(USA)</a>).</p>
+<h4 id="top-level-concepts">Top-level concepts</h4>
+<p>All concepts in GACS are grouped under three concepts that have no broader
+concepts (top-level concepts):</p>
+<ul>
+<li><em>Objects</em>: material things that can be seen, touched, visited (locations),
+  including conceptual objects such as ideas and models.</li>
+<li><em>Events and actions</em>: things that happen, such as processes or phenomena.</li>
+<li><em>Properties</em>: attributes, characteristics, or qualities of things.</li>
+</ul>
+<p>In thesaurus practice, top concepts are typically intended for use in faceted
+browsing or in creating microthesauri.  In GACS, the top concepts can be used
+as entry points for browsing GACS by thematic group in the Hierarchy tab of the
+Skosmos browser.  The top concepts are too abstract to be used for indexing.
+Concepts further down in the hierarchy are more concrete and more useful both
+for indexing and for clarifying meanings (disambiguation).  While a certain
+amount of polyhierarchy (where concepts have more than one broader concept) may
+be inevitable, even desirable, it seems unrealistic to expect that a complex
+polyhierarchy could be enforced and maintained in a principled way and at
+scale.  For GACS, the goal is to to keep the hierarchy simple, and as close to
+the ideal of cascading "is a" relations, as pragmatically possible.</p>
+<h4 id="concept-types">Concept types</h4>
+<p>Differentiating between types of concept can help clarify the meaning of
+concepts across the hierarchy.  While top concepts, with their hierarchies,
+might in principle be used to group concepts by the type of thing they
+represent, such as "organisms", the GACS hierarchy does not follow the
+principle of general-to-specific (hyponymy) strictly enough to ensure that "is
+a" ("type of") relations always hold; the hierarchy also contains "part of"
+(meronym) relations.  The GACS Working Group opted to explore the usefulness of
+concept types by creating types of SKOS concept for just four particularly
+obvious and clearly defined types of things: <em>Chemical</em>, <em>Geographical</em>,
+<em>Organism</em>, and <em>Product</em>, with <em>Topic</em> as a fifth "catch-all" type for all
+concepts not otherwise covered (and with the expectation that <em>Topic</em> might be
+further differentiated over time).</p>
+<h4 id="custom-non-skos-relations-between-concepts">Custom (non-SKOS) relations between concepts</h4>
+<p>Some thesauri, such as AGROVOC and CAB Thesaurus, use semantic relations beyond
+standard SKOS properties to express more specific relations between concepts.
+However, efforts to "ontologize" thesauri with such additional relations
+struggle to ensure that the properties would be applied consistently,
+comprehensively, and maintainably.  The GACS Working Group decided that custom
+relations should only be created for use cases important enough to justify the
+effort.  Two properties qualified: <em>hasProduct</em> and <em>productOf</em>, for relating
+<a href="http://id.agrisemantics.org/gacs/C2986">fish as a product</a> to <a href="http://id.agrisemantics.org/gacs/C1089">fish as an
+organism</a>.</p>
+<h4 id="mapping-to-concepts-in-external-vocabularies">Mapping to concepts in external vocabularies</h4>
+<p>GACS was created at the intersection of three existing thesauri, and each
+concept in GACS has a SKOS "exact match" relation back to the concept or
+concepts in AGROVOC, CABT, and NALT from which it was created.  </p>
+<p>In addition, the 540 concepts of type <em>Geographical</em> have SKOS "close match"
+relations to entities in Wikidata.  These mappings facilitate access from GACS
+to Wikidata information about geographic places (such as coordinates,
+population, language, and religions); to Wikidata mappings out to other
+geo-oriented vocabularies such as GeoNames and OpenStreetMap; and to mappings
+out to library-oriented authority files such as the Library of Congress Name
+Authority File, GND (German union authority), BNF, VIAF and ISNI. As an
+example, see the Wikidata entry for
+<a href="https://www.wikidata.org/wiki/Q1951">Alberta</a>) and the corresponding <a href="http://id.agrisemantics.org/gacs/C15421">GACS
+concept</a>.</p>
+<p>This exercise suggests a model by which GACS might, in the future, devolve or
+delegate responsibility for specific types of GACS concepts to external
+authorities.  Geographic places are an obvious candidate for delegation because
+they are not specific to agriculture and because they have been given URIs in
+so many other sources.  Once mapped to a external source, a given set of GACS
+concepts could be reduced to a set of URIs clearly marked as dependent on the
+external URIs, and the GACS community could promote the use of the external
+URIs.  GACS concepts cannot simply be deleted because their URIs must be
+credibly persistent, in accordance with explicit policies, if GACS itself is to
+be credibly deployable.  On the other hand, the GACS URIs also provide a
+fallback option should the external authority ever cease operation, a
+contingency that would be prudent to anticipate by policy.</p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../definitions/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../definitions/" class="btn btn-xs btn-link">
+        Concept definitions
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../concepts/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../concepts/" class="btn btn-xs btn-link">
+        Concepts
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+      <p>
+        <a href="https://github.com/agrisemantics/website/edit/master/docs/relations.md">Edit on Github</a>
+      </p>
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

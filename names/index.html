@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Scientific and common names - Agrisemantics</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../thematic_classification/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../thematic_classification/" class="btn btn-xs btn-link">
+        Thematic classification
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../labels/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../labels/" class="btn btn-xs btn-link">
+        Concept labels
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <p>Concepts of type "organism" are 29% of GACS Beta 1.6.  Of these, 
+over 83% have a scientific name as prefLabel. The remaining 17%
+includes:</p>
+<ul>
+<li>
+<p><strong>common names</strong>: goats, lizards, ducks, shrimps, honey bees, 
+  mangolds.</p>
+</li>
+<li>
+<p><strong>names of organism groups</strong>: young animals, plant parasitic nematodes,
+  aquatic insects, small ruminants, farmed fish, macroinvertebrates, racing
+  animals, rodents, pets, cash crops.</p>
+</li>
+<li>
+<p><strong>names of special kinds of organism</strong>: stallions, kids, weanlings, bitches,
+  beef bulls, yearlings, ewes, ducklings, germ-free animals, herds,
+  fish larvae.</p>
+</li>
+</ul>
+<p>The scientific names of organisms are markedly "translinguistic" -- i.e., they
+are often used unchanged across a broad range of world languages.  Scientific
+names may be expressed as "Latinate" (Latin or Latin-like) phrases, such as
+"Tsuga canadensis" or "Picea engelmannii".  Exceptions include viruses, which
+are translingually named in English, e.g., "Foot-and-mouth disease virus".  If
+the goal of GACS were to provide a definitive database for species or taxons,
+it might follow relevant standards such as Darwin Core, which designates
+scientific names with a special property.  In order to meet the simpler use
+cases of bibliographic indexing, GACS follows the thesaurus paradigm of
+concepts with preferred and alternate labels.  Insofar as scientific names are
+translingual, they are considered in GACS as belonging to no language in
+particular.  Labels with scientific names are tagged with a code, 'zxx',
+defined in ISO 639-2 and ISO 639-3 for content that is not specific to any
+language (@cite).</p>
+<p>In GACS, the distinction between preferred and alternative labels is largely
+orthogonal to the distinction between scientific and common names.  A
+scientific name may be the preferred label (e.g., "Leptinotarsa decemlineata")
+and the corresponding common name the alternative ("Colorado potato beetle").
+Vice versa, the common name may be preferred ("dogs") and the scientific name
+alternative ("Canis lupus familiaris"). </p>
+<p><img alt="Decision tree from March 2015 meeting" src="../names.png" /></p>
+<p>For example:</p>
+<pre><code>----------------------------------------------------------------------------------------
+| Condition                    | prefLabel                 | altLabel                  |
+|------------------------------|---------------------------|---------------------------|
+| 1:1 Common to Species Name   | __Species__               | __Common__                |
+|                              | Leptinotarsa decemlineata | Colorado potato beetle    |
+|                              | Camelus bactrianus        | Bactrian camel            |
+|                              | Quercus rubra             | Northern red oak          |
+| 1:N Common to Species Name   | __Species__               | __Common__                |
+|                              | Campanula                 | Bluebells                 |
+|                              | Barleria                  |                           |
+|                              | Mertensia                 |                           |
+|                              | Eustoma                   |                           |
+|                              | Hyacinthoides             |                           |
+----------------------------------------------------------------------------------------
+</code></pre>
+<p>Lori Finch prepared a note about <a href="https://github.com/agrisemantics/gacs-qip/blob/master/documentation/Common_Names_and_Latin_Names-GACS.docx">common names and Latin names in
+GACS</a>.</p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../thematic_classification/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../thematic_classification/" class="btn btn-xs btn-link">
+        Thematic classification
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../labels/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../labels/" class="btn btn-xs btn-link">
+        Concept labels
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+      <p>
+        <a href="https://github.com/agrisemantics/website/edit/master/docs/names.md">Edit on Github</a>
+      </p>
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

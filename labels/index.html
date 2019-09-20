@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Concept labels - Agrisemantics</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../names/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../names/" class="btn btn-xs btn-link">
+        Scientific and common names
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../definitions/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../definitions/" class="btn btn-xs btn-link">
+        Concept definitions
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <p>In GACS, concepts are labeled with natural-language phrases.  Concept labels,
+or "terms", are preferred or alternative.  Preferred terms can be used as tags
+for subject indexing (as "descriptors").  The precision of term-based indexing
+depends on the uniqueness of the strings used to encode the terms. In
+production environments, for example when thesauri are used in complex
+workflows, it is important that preferred terms also remain stable. </p>
+<p>Terms other than preferred terms are non-preferred, or alternative
+("non-descriptors").  Because non-descriptors are used to direct users to
+preferred terms, they are also known as "lead-in-terminology".  In standard
+thesaurus practice, non-descriptors are not used to tag resources for indexing
+and retrieval.</p>
+<p>In accordance with thesaurus practice, SKOS prescribes that concepts not have
+two preferred labels in a given language and recommends that preferred labels
+in a given language be unique within the context of a given concept scheme
+(e.g., that no two concepts share the prefLabel "lime"@en).  In accordance with
+the SKOS specification, it is an error if a concept has a same literal both as
+its preferred label and as an alternative label.</p>
+<p>In GACS:</p>
+<ol>
+<li>
+<p>Preferred labels MUST be unique for the core languages of GACS. That 
+   is, one concept MUST NOT have the same preferred label as another 
+   concept in the same (core) language.
+   Note: "unique" is case insensitive.</p>
+</li>
+<li>
+<p>Preferred labels SHOULD be unique for the other (non-core) languages 
+   of GACS. That is, one concept SHOULD NOT have the same preferred label as 
+   another concept in the same (non-core) language.</p>
+</li>
+<li>
+<p>In core languages, an alternate label MUST NOT be identical to a 
+   preferred label of another concept.</p>
+</li>
+<li>
+<p>In other (non-core) languages, an alternate label SHOULD NOT be 
+   identical to a preferred label of another concept.</p>
+</li>
+<li>
+<p>Alternate labels MUST be unique for the core languages of GACS. That 
+   is, one concept MUST NOT have the same alternate label as another 
+   concept in the same (core) language.</p>
+</li>
+<li>
+<p>Alternate labels SHOULD be unique for the other (non-core) languages 
+   of GACS. That is, one concept SHOULD NOT have the same alternate label as 
+   another concept in the same (non-core) language.</p>
+</li>
+</ol>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../names/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../names/" class="btn btn-xs btn-link">
+        Scientific and common names
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../definitions/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../definitions/" class="btn btn-xs btn-link">
+        Concept definitions
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+      <p>
+        <a href="https://github.com/agrisemantics/website/edit/master/docs/labels.md">Edit on Github</a>
+      </p>
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
