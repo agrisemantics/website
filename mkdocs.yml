@@ -18,3 +18,6 @@ nav:
         - 'Thematic classification': thematic_classification.md
         - 'Scope notes': scopenotes.md
     - 'Reference material': reference.md
+- Agrisemantics WG:
+    - 'About': aboutagsemwg.md
+    - 'Recommendations': agsem_recommendations.md
