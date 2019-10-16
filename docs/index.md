@@ -6,7 +6,7 @@ Much is ongoing in the area of semantic interoperability, in particular for agri
 
 **International Initiatives**
 
-- The [Agrisemantics WG at RDA](https://www.rd-alliance.org/groups/agrisemantics-wg.html) gathers researchers and practitioners interested in producing and accessing more interoperable data in agriculture. To this end, the WG produced a [set of recommendations to facilitate the use of semantics on data for agriculture and nutrition](https://agrisemantics.org/#agsem_recommendations/).  All of these recommendations are up for discussion, please see the respective [issue (github)](https://github.com/agrisemantics/recommendations/issues) to contribute.
+- The [Agrisemantics WG at RDA](https://www.rd-alliance.org/groups/agrisemantics-wg.html) gathers researchers and practitioners interested in producing and accessing more interoperable data in agriculture. To this end, the WG produced a [set of recommendations to facilitate the use of semantics on data for agriculture and nutrition](https://agrisemantics.org/agsem_recommendations/).  All of these recommendations are up for discussion, please see the respective [issue (github)](https://github.com/agrisemantics/recommendations/issues) to contribute.
 
 **Standard vocabularies and classifications**
 
