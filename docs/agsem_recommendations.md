@@ -1,6 +1,6 @@
 # 39 Hints to Facilitate the Use of Semantics for Data on Agriculture and Nutrition
 
-# Recommendations from the RDA Agrisemantics Working Group
+### Recommendations from the RDA Agrisemantics Working Group
 
 This document presents the recommendations of the [RDA Agrisemantics Working Group](https://www.rd-alliance.org/groups/agrisemantics-wg.html) (WG) to promote the use of semantics for agricultural data for the purpose of enhancing data interoperability in agriculture. These recommendations are high-level, to encourage researchers and practitioners to extend them according to their area of expertise.
 
@@ -32,18 +32,9 @@ resource. Such tools should integrate state of art algorithms, have user-friendl
 - The promotion of a **standard for expressing alignment between SR expressed in little or no machine-actionable formats**.
 - The development and long term maintenance of **low-level resources<sup>1</sup> for common objects of interest in agriculture**​ (e.g., species and varieties, diseases, food products) offering persistent identifiers (PIDs). Supported resources should conform to W3C recommendations and be published according to the FAIR principles.
 
-**HLR3. Promote the adoption of common metadata models for the description of semantic resources and alignments, and the use of global identifiers to facilitate reuse, ensure usage tracking, and citation**. ​ This is to promote the access and reuse of semantic resources. To this end, improving information on provenance is a priority. A short set of metadata models fitted to describe semantic resources and alignments needs to be
-gathered and promoted. Whenever needed, existing models should be completed with
-adequate metadata items to allow, for instance, the production of usage metrics (if not
-available, they should be created). This should come with a more generalized adoption of
-persistent global identifiers (PIDs) at various level (e.g., the resource itself, the concepts,
-mappings, its creators). We do not recommend a specific PID system (as its choice also
-depends on the needs of the specific application and domains), but do recommend that the
-system chosen is widely adopted, and that the possibility of creating correspondences with
-other systems is taken into consideration since the beginning (especially to increase the
-possibility of data integration and interoperability). Shared and adapted metadata as well as
-persistent, global identifiers will contribute to develop better practices in reusing and citing
-resources in the agri-food domain.
+**HLR3. Promote the adoption of common metadata models for the description of semantic resources and alignments, and the use of global identifiers to facilitate reuse, ensure usage tracking, and citation**. ​ This is to promote the access and reuse of semantic resources. To this end, improving information on provenance is a priority. A short set of metadata models fitted to describe semantic resources and alignments needs to be gathered and promoted. Whenever needed, existing models should be completed with adequate metadata items to allow, for instance, the production of usage metrics (if not
+available, they should be created). This should come with a more generalized adoption of persistent global identifiers (PIDs) at various level (e.g., the resource itself, the concepts, mappings, its creators). We do not recommend a specific PID system (as its choice also depends on the needs of the specific application and domains), but do recommend that the
+system chosen is widely adopted, and that the possibility of creating correspondences with other systems is taken into consideration since the beginning (especially to increase the possibility of data integration and interoperability). Shared and adapted metadata as well as persistent, global identifiers will contribute to develop better practices in reusing and citing resources in the agri-food domain.
 
 **HLR4. ​ Create courses on semantics and integrate them into curricula** ​ in computer sciences, data & information management and analytics, agronomy, bioinformatics, etc. This is the condition for a broader adoption of semantics to handle agrifood data. As semantics is needed in all steps of data life cycle, relevant knowledge and skills should be shared by all
 roles involved in the workflow - domain experts and software managers alike. People
@@ -57,7 +48,7 @@ implement them. At the same time, we also provide more details for as many recom
 #### 1. [Developers of tools for manipulating semantic structures](https://github.com/agrisemantics/recommendations/labels/Developers)
 
 We wish to address software engineers, from both academia and industry, who produce tools and platforms to conceive, edit, merge, map, and share semantic resources. With these recommendations, we intend to guide them towards easier-to-use, more interoperable,
-smarter technologies for the benefit of non experts in particular. A table of correspondences between the more specific recommendations given below and the Requirements listed in Deliverable 2 can be found in Annex I.
+smarter technologies for the benefit of non experts in particular. A table of correspondences between the more specific recommendations given below and the [Requirements listed in Deliverable 2 can be found in Annex I](https://www.rd-alliance.org/system/files/documents/Deliverable2_Use_Cases_and_Requirements.pdf).
 
 [General recommendations](https://github.com/agrisemantics/recommendations/labels/General%20recommendation)
 
