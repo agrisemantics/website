@@ -1,6 +1,6 @@
 # 39 Hints to Facilitate the Use of Semantics for Data on Agriculture and Nutrition
 
-### Recommendations from the RDA Agrisemantics Working Group
+## Recommendations from the RDA Agrisemantics Working Group
 
 This document presents the recommendations of the [RDA Agrisemantics Working Group](https://www.rd-alliance.org/groups/agrisemantics-wg.html) (WG) to promote the use of semantics for agricultural data for the purpose of enhancing data interoperability in agriculture. These recommendations are high-level, to encourage researchers and practitioners to extend them according to their area of expertise.
 
