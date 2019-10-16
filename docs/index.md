@@ -5,6 +5,7 @@ Modern agriculture needs data on a wide range of topics, from crop yields to soi
 Much is ongoing in the area of semantic interoperability, in particular for agriculture:
 
 **International Initiatives**
+
 - The [Agrisemantics WG at RDA](https://www.rd-alliance.org/groups/agrisemantics-wg.html) gathers researchers and practitioners interested in producing and accessing more interoperable data in agriculture. To this end, the WG produced a [set of recommendations to facilitate the use of semantics for data on agriculture and nutrition](url).
 
 **Standard vocabularies and classifications**
@@ -13,5 +14,10 @@ Much is ongoing in the area of semantic interoperability, in particular for agri
 - A repository of ontologies: [AgroPortal](http://agroportal.lirmm.fr/)
 - The Global Agricultural Concept Space ([GACS](http://browser.agrisemantics.org/gacs/en/))
 - Statistical classifications for agriculture as Linked Open Vocabularies [Caliper](http://stats-class.fao.uniroma2.it/caliper/).
+
+**Tools**
+
+- Editing RDF, OWL: [VocBench](http://vocbench.uniroma2.it/)
+- Browsing and searching RDF, SKOS: [SKOSMOS](http://skosmos.org/)
 
 ![](SEMANTICS-RICE_poster_lores.jpg)
