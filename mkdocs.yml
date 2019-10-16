@@ -7,6 +7,9 @@ site_description: 'Agrisemantics home page'
 dev_addr: '127.0.0.1:8080'
 nav:
 - Home : index.md
+- Agrisemantics WG:
+    - 'About': agsem_about.md
+    - 'Recommendations': agsem_recommendations.md
 - GACS:
     - 'About GACS': GACShome.md
     - Guidelines:
@@ -18,6 +21,3 @@ nav:
         - 'Thematic classification': thematic_classification.md
         - 'Scope notes': scopenotes.md
     - 'Reference material': reference.md
-- Agrisemantics WG:
-    - 'About': agsem_about.md
-    - 'Recommendations': agsem_recommendations.md
