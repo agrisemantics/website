@@ -7,7 +7,8 @@ Much is ongoing in the area of semantic interoperability, in particular for agri
 **International Initiatives**
 - The [Agrisemantics WG at RDA](https://www.rd-alliance.org/groups/agrisemantics-wg.html) gathers researchers and practitioners interested in producing and accessing more interoperable data in agriculture. To this end, the WG produced a [set of recommendations to facilitate the use of semantics for data on agriculture and nutrition](url).
 
-**Standard vocabularies and classifications**  
+**Standard vocabularies and classifications**
+
 - A catalog of standards for agriculture is provided by the [Agrisemantics Map of Standards](https://vest.agrisemantics.org/).
 - A repository of ontologies: [AgroPortal](http://agroportal.lirmm.fr/)
 - The Global Agricultural Concept Space ([GACS](http://browser.agrisemantics.org/gacs/en/))
