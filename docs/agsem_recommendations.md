@@ -1,6 +1,6 @@
 # 39 Hints to Facilitate the Use of Semantics for Data on Agriculture and Nutrition
 
-### Recommendations from the RDA Agrisemantics Working Group
+## Recommendations from the RDA Agrisemantics Working Group
 
 This document presents the recommendations of the [RDA Agrisemantics Working Group](https://www.rd-alliance.org/groups/agrisemantics-wg.html) (WG) to promote the use of semantics for agricultural data for the purpose of enhancing data interoperability in agriculture. These recommendations are high-level, to encourage researchers and practitioners to extend them according to their area of expertise.
 
@@ -49,12 +49,12 @@ resources in the agri-food domain.
 roles involved in the workflow - domain experts and software managers alike. People
 developing software to store, share, integrate and analyze the data must be considered as
 
-#### Recommendation according to profiles and roles:
+### Recommendation according to profiles and roles:
 The recommendations given above are organized according to their area of coverage. In the
 following, we arrange them according the skill sets and roles that in the best position to
 implement them. At the same time, we also provide more details for as many recommendations as possible.
 
-##### 1. [Developers of tools for manipulating semantic structures](https://github.com/agrisemantics/recommendations/labels/Developers)
+#### 1. [Developers of tools for manipulating semantic structures](https://github.com/agrisemantics/recommendations/labels/Developers)
 
 We wish to address software engineers, from both academia and industry, who produce tools and platforms to conceive, edit, merge, map, and share semantic resources. With these recommendations, we intend to guide them towards easier-to-use, more interoperable,
 smarter technologies for the benefit of non experts in particular. A table of correspondences between the more specific recommendations given below and the Requirements listed in Deliverable 2 can be found in Annex I.
@@ -84,7 +84,7 @@ implemented.
 12. Include concept/class ​**alignment**​ advanced features in SR editing tools, integrate state-of-art alignment algorithms. In particular, consider the alignment of resources of different levels of expressiveness, e.g. thesauri with ontologies. Allow for **collaborative evaluation**​ of alignments. Implement the ​**use of metadata and recording of provenance**​ of concepts in alignment processes.
 13. Add ​**alignment discovery services** that deal with SPARQL endpoints and develop algorithms and tools to ​**mine large sets of alignments**.
 
-##### 2. [Semantic professionals](https://github.com/agrisemantics/recommendations/labels/Semantic%20professional)
+#### 2. [Semantic professionals](https://github.com/agrisemantics/recommendations/labels/Semantic%20professional)
 
 14. Make your SRs easily findable, accessible, interoperable and reusable, by applying W3C recommendations and the [FAIR principles](https://www.force11.org/group/fairgroup/fairprinciples). In particular:
     - **Share your resources** in various repositories and catalogues, be they generic or domain specific;
@@ -104,7 +104,7 @@ between resources expressed in different formats**.
     - **reusing (parts of) resources to create new ones**.
 24. **Communicate**​ the benefits of semantics through case studies, best practices, lessons learned, shared experiences, success stories.
 
-##### 3. Developers of tools/platforms consuming SRs
+#### 3. [Developers of tools/platforms consuming SRs](https://github.com/agrisemantics/recommendations/labels/Developers)
 
 25. **Stay abreast of development in semantic technologies**.
 26. Include functionalities for searching, discovering, documenting, visualizing, etc., data according to the SR used.
@@ -117,7 +117,7 @@ measure units, parameters for experimental or observational data, soil propertie
     - according to appropriate, normative, semantic models (eg INSPIRE)
     - in a reproducible manner.
 
-##### 4. [Data managers, data producers](https://github.com/agrisemantics/recommendations/labels/Data%20managers)
+#### 4. [Data managers, data producers](https://github.com/agrisemantics/recommendations/labels/Data%20managers)
 
 30. **Stay abreast of development in semantic technologies**.
 31. **Make explicit (searchable and findable) what SR(s) are used within your dataset**. To this end, pay special attention to the associated metadata scheme, and
@@ -127,7 +127,7 @@ parameters for experimental or observational data, soil properties, etc.
 33. **Prefer data collection tools which support semantically enabled data types** to structure and document the data.
 34. If alignment/mapping between datasets are created, **provide documentation for the processes as well as for the result**.
 
-##### 5. [Policy makers & Funders](https://github.com/agrisemantics/recommendations/labels/Funders)
+#### 5. [Policy makers & Funders](https://github.com/agrisemantics/recommendations/labels/Funders)
 
 35. **Foster the development of a generic, extensible and web-based, framework to work with Semantic Resources**.
 36. Encourage and support the creation and long term maintenance of **open​ tools to manipulate semantic resources**.
