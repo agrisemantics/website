@@ -1,17 +1,17 @@
 ### Semantics for the Interoperability of Agricultural Data
 
-Modern agriculture needs data on a wide range of topics, from crop yields to
-soil composition and rainfall, in a wide range of digital formats, from
-spreadsheets to maps.  How well such diverse data sources can be integrated to
-solve specific problems in agriculture depends in part on whether they are
-based on compatible concepts ("semantic interoperability").  The practicalities
-of semantic interoperability in agricultural data have been addressed in:
+Modern agriculture needs data on a wide range of topics, from crop yields to soil composition and rainfall, in a wide range of digital formats, from spreadsheets to maps. How well such diverse data sources can be integrated to solve specific problems in agriculture depends in part on whether its "meaning" is correctly defined, which allows it to be used in a straightforward manner in different information systems ("semantic interoperability").
 
-* [AgroPortal](http://agroportal.lirmm.fr/)
-* [RDA Agrisemantics Working
-  Group](https://www.rd-alliance.org/groups/agrisemantics-wg.html) of the
-  Research Data Alliance.  
-* [Global Agricultural Concept Space (GACS)](https://agrisemantics.org/GACS/)
-* [GODAN Action VEST / AgroPortal map of standards](http://vest.agrisemantics.org)
+Much is ongoing in the area of semantic interoperability, in particular for agriculture:
+
+**International Initiatives**
+- The [Agrisemantics WG at RDA](https://www.rd-alliance.org/groups/agrisemantics-wg.html) gathers researchers and practitioners interested in producing and accessing more interoperable data in agriculture. To this end, the WG produced a [set of recommendations to facilitate the use of semantics for data on agriculture and nutrition](url).
+
+**Standard vocabularies and classifications**
+
+- A catalog of standards for agriculture is provided by the [Agrisemantics Map of Standards](https://vest.agrisemantics.org/).
+- A repository of ontologies: [AgroPortal](http://agroportal.lirmm.fr/)
+- The Global Agricultural Concept Space ([GACS](http://browser.agrisemantics.org/gacs/en/))
+- Statistical classifications for agriculture as Linked Open Vocabularies [Caliper](http://stats-class.fao.uniroma2.it/caliper/).
 
 ![](SEMANTICS-RICE_poster_lores.jpg)
