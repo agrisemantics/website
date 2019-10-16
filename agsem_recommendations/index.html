@@ -33,8 +33,7 @@
         
         var pageToc = [
           {title: "39 Hints to Facilitate the Use of Semantics for Data on Agriculture and Nutrition", url: "#_top", children: [
-          ]},
-          {title: "Recommendations from the RDA Agrisemantics Working Group", url: "#recommendations-from-the-rda-agrisemantics-working-group", children: [
+              {title: "Recommendations from the RDA Agrisemantics Working Group", url: "#recommendations-from-the-rda-agrisemantics-working-group" },
               {title: "Recommendation according to profiles and roles:", url: "#recommendation-according-to-profiles-and-roles" },
           ]},
         ];
@@ -84,7 +83,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
     
 
     <h1 id="39-hints-to-facilitate-the-use-of-semantics-for-data-on-agriculture-and-nutrition">39 Hints to Facilitate the Use of Semantics for Data on Agriculture and Nutrition</h1>
-<h1 id="recommendations-from-the-rda-agrisemantics-working-group">Recommendations from the RDA Agrisemantics Working Group</h1>
+<h3 id="recommendations-from-the-rda-agrisemantics-working-group">Recommendations from the RDA Agrisemantics Working Group</h3>
 <p>This document presents the recommendations of the <a href="https://www.rd-alliance.org/groups/agrisemantics-wg.html">RDA Agrisemantics Working Group</a> (WG) to promote the use of semantics for agricultural data for the purpose of enhancing data interoperability in agriculture. These recommendations are high-level, to encourage researchers and practitioners to extend them according to their area of expertise.</p>
 <p>The activities of the Agrisemantics WG started off with <a href="https://www.rd-alliance.org/system/files/documents/Deliverable1%20-%20Landscaping.pdf">an analysis of the current landscape of use of semantic resources with agricultural data</a>, based on first-hand experience of our group members, as well as on bibliometric investigation, and an analysis of existing repositories. From that first activity, we found that despite the many possible applications of semantics and the interest shown by research and industry alike, their actual implementation and use is lagging behind. A large number of resources are not in machine-readable formats or do not have public APIs, while those available are often used beyond their intended area of use, possibly leading to problems. Our conclusion is that there is a strong need for “lifting” semantic resources to the web, and create new ones appropriate to their intended use.</p>
 <p>Based on the insights gained from that analysis, we moved on to look in more detail at the actual reality of working with semantic resources, we opened a call for use cases, to collect examples of actual work and limitations, together with evidence of work already ongoing to address them. From that, we found that a large variety of profiles (and so skills and roles) are involved in working with semantic resources, and that there seem to be as many tools and toolkits as projects. Following the explicit suggestions provided by our respondents, we identified three types of implications of this fact, namely:</p>
@@ -111,18 +110,9 @@ resource. Such tools should integrate state of art algorithms, have user-friendl
 <li>The promotion of a <strong>standard for expressing alignment between SR expressed in little or no machine-actionable formats</strong>.</li>
 <li>The development and long term maintenance of <strong>low-level resources<sup>1</sup> for common objects of interest in agriculture</strong>​ (e.g., species and varieties, diseases, food products) offering persistent identifiers (PIDs). Supported resources should conform to W3C recommendations and be published according to the FAIR principles.</li>
 </ul>
-<p><strong>HLR3. Promote the adoption of common metadata models for the description of semantic resources and alignments, and the use of global identifiers to facilitate reuse, ensure usage tracking, and citation</strong>. ​ This is to promote the access and reuse of semantic resources. To this end, improving information on provenance is a priority. A short set of metadata models fitted to describe semantic resources and alignments needs to be
-gathered and promoted. Whenever needed, existing models should be completed with
-adequate metadata items to allow, for instance, the production of usage metrics (if not
-available, they should be created). This should come with a more generalized adoption of
-persistent global identifiers (PIDs) at various level (e.g., the resource itself, the concepts,
-mappings, its creators). We do not recommend a specific PID system (as its choice also
-depends on the needs of the specific application and domains), but do recommend that the
-system chosen is widely adopted, and that the possibility of creating correspondences with
-other systems is taken into consideration since the beginning (especially to increase the
-possibility of data integration and interoperability). Shared and adapted metadata as well as
-persistent, global identifiers will contribute to develop better practices in reusing and citing
-resources in the agri-food domain.</p>
+<p><strong>HLR3. Promote the adoption of common metadata models for the description of semantic resources and alignments, and the use of global identifiers to facilitate reuse, ensure usage tracking, and citation</strong>. ​ This is to promote the access and reuse of semantic resources. To this end, improving information on provenance is a priority. A short set of metadata models fitted to describe semantic resources and alignments needs to be gathered and promoted. Whenever needed, existing models should be completed with adequate metadata items to allow, for instance, the production of usage metrics (if not
+available, they should be created). This should come with a more generalized adoption of persistent global identifiers (PIDs) at various level (e.g., the resource itself, the concepts, mappings, its creators). We do not recommend a specific PID system (as its choice also depends on the needs of the specific application and domains), but do recommend that the
+system chosen is widely adopted, and that the possibility of creating correspondences with other systems is taken into consideration since the beginning (especially to increase the possibility of data integration and interoperability). Shared and adapted metadata as well as persistent, global identifiers will contribute to develop better practices in reusing and citing resources in the agri-food domain.</p>
 <p><strong>HLR4. ​ Create courses on semantics and integrate them into curricula</strong> ​ in computer sciences, data &amp; information management and analytics, agronomy, bioinformatics, etc. This is the condition for a broader adoption of semantics to handle agrifood data. As semantics is needed in all steps of data life cycle, relevant knowledge and skills should be shared by all
 roles involved in the workflow - domain experts and software managers alike. People
 developing software to store, share, integrate and analyze the data must be considered as</p>
@@ -132,7 +122,7 @@ following, we arrange them according the skill sets and roles that in the best p
 implement them. At the same time, we also provide more details for as many recommendations as possible.</p>
 <h4 id="1-developers-of-tools-for-manipulating-semantic-structures">1. <a href="https://github.com/agrisemantics/recommendations/labels/Developers">Developers of tools for manipulating semantic structures</a></h4>
 <p>We wish to address software engineers, from both academia and industry, who produce tools and platforms to conceive, edit, merge, map, and share semantic resources. With these recommendations, we intend to guide them towards easier-to-use, more interoperable,
-smarter technologies for the benefit of non experts in particular. A table of correspondences between the more specific recommendations given below and the Requirements listed in Deliverable 2 can be found in Annex I.</p>
+smarter technologies for the benefit of non experts in particular. A table of correspondences between the more specific recommendations given below and the <a href="https://www.rd-alliance.org/system/files/documents/Deliverable2_Use_Cases_and_Requirements.pdf">Requirements listed in Deliverable 2 can be found in Annex I</a>.</p>
 <p><a href="https://github.com/agrisemantics/recommendations/labels/General%20recommendation">General recommendations</a></p>
 <ol>
 <li>Build <strong>tools that may be integrated into suits</strong>, to ​ unburden users from tasks such as format transformation and transfer of metadata. Integratable tools should be available at all phases of the editing process, e.g., eliciting knowledge, formalization, reuse and alignment. This implies ​<strong>choosing standard technologies and shared input/output formats</strong> for both content representation (e.g. <a href="https://www.w3.org/2004/02/skos/">SKOS</a> and <a href="http://www.tei-c.org/">TEI</a> ) and metadata encoding.</li>
