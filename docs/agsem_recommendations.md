@@ -45,6 +45,8 @@ The recommendations given above are organized according to their area of coverag
 following, we arrange them according the skill sets and roles that in the best position to
 implement them. At the same time, we also provide more details for as many recommendations as possible.
 
+**Please note**, all recommendations are available for discussion via the issue tracker on our  [git repository](https://github.com/agrisemantics/recommendations/issues). Please do get involved!
+
 #### 1. [Developers of tools for manipulating semantic structures](https://github.com/agrisemantics/recommendations/labels/Developers)
 
 We wish to address software engineers, from both academia and industry, who produce tools and platforms to conceive, edit, merge, map, and share semantic resources. With these recommendations, we intend to guide them towards easier-to-use, more interoperable,
