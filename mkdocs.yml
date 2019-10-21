@@ -10,6 +10,8 @@ nav:
 - Agrisemantics WG:
     - 'About': agsem_about.md
     - 'Recommendations': agsem_recommendations.md
+    - 'Getting involved': getting_involved.md
+    - 'Adopters': adopters.md
 - GACS:
     - 'About GACS': GACShome.md
     - Guidelines:
