@@ -4,9 +4,11 @@ Global Agricultural Concept Space (GACS) is a namespace for global identifiers o
 
 The first GACS concept _scheme_, GACS Core, was created between 2014 and 2016 by a joint working group of the Food and Agriculture Organization of the United Nations, CAB International (CABI), and the National Agricultural Library of the USDA (NAL) and substantially improved and revised by Lori Finch with a quality control project in 2017.  Work on GACS Core was substantially facilitated by the Global Open Data for Agriculture and Nutrition (GODAN).  The GACS namespace is currently supported by CABI, which facilitates the GACS Working Group along with the French Institut National de la Recherche Agronomique (INRA).
 
-GACS Core is a concept scheme with circa 15,000 concepts selected from, and mapped to, the most frequently used concepts of three larger concept schemes: AGROVOC (FAO), CAB Thesaurus (CABI), and NAL Thesaurus (NAL).  The editorial policies for GACS follow best practices of modern thesaurus design as reflected in ISO 25964, "Thesauri and interoperability with other vocabularies", and is expressed in Simple Knowledge Organization System ([SKOS](http://www.w3.org/TR/skos-primer/)), with some extensions, for publication as Linked Data.  
+GACS Core is a concept scheme with circa 15,000 concepts selected from, and mapped to, the most frequently used concepts of three larger concept schemes: AGROVOC (FAO), CAB Thesaurus (CABI), and NAL Thesaurus (NAL).  The editorial policies for GACS follow best practices of modern thesaurus design as reflected in ISO 25964, "Thesauri and interoperability with other vocabularies", and is expressed in Simple Knowledge Organization System ([SKOS](http://www.w3.org/TR/skos-primer/)), with some extensions, for publication as Linked Data.  The GACS community aspires to build collaboration with expert providers of concept URIs in specific areas such as species, viruses, chemicals, and geographic places.
 
-GACS is seen as an important step towards linking and integrating agricultural data of all types to address the long-term challenge of global food security. The GACS community of maintenance organizations is growing.  The GACS community aspires to build collaboration with expert providers of concept URIs in specific areas such as species, viruses, chemicals, and geographic places.
+GACS Core is the first of potentially many concept schemes in this larger concept space. In the GACS vision, the integration of these three thesauri was the first step towards the realization of a hub that links to and from the concept schemes beyond the initial three, and in multiple language areas.
+
+Please not, GACS is not actively maintained. All GACS data is from 2016.
 
 #### Browse GACS online
 
