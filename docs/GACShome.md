@@ -8,7 +8,7 @@ GACS Core is a concept scheme with circa 15,000 concepts selected from, and mapp
 
 GACS Core is the first of potentially many concept schemes in this larger concept space. In the GACS vision, the integration of these three thesauri was the first step towards the realization of a hub that links to and from the concept schemes beyond the initial three, and in multiple language areas.
 
-Please not, GACS is not actively maintained. All GACS data is from 2016.
+**Please note, GACS is not actively maintained. All GACS data is from 2016.**
 
 #### Browse GACS online
 
