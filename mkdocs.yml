@@ -6,8 +6,8 @@ edit_uri: 'edit/master/docs/'
 site_description: 'Agrisemantics home page'
 dev_addr: '127.0.0.1:8080'
 nav:
-  - 'index.md'
-  - 'Agrisemantics WG':
+  - Agrisemantics: 'index.md'
+  - 'Agrisemantics WG @ RDA':
       - 'About': 'agsem_about.md'
       - 'Recommendations': 'agsem_recommendations.md'
       - 'Getting involved': 'getting_involved.md'
