@@ -9,7 +9,7 @@
 
 5. [DTL](https://www.dtls.nl/) (Dutch Techcentre for Life Science) is an early adopter of the FAIR principles and of the Agrisemantics recommendations, which promote them.
 
-6. [GACS](https://agrisemantics.org/#GACShome/) is an initiative aimed at finding a common set of "concepts" relevant to agriculture, based on three major thesauri in the area: Agrovoc from the Food and Agriculture Organization of the UN, CABT from CABI International, and NALT from the US National Agricultural Library.
+6. [GACS](https://agrisemantics.org/#GACShome/) is an initiative aimed at finding a common set of "concepts" relevant to agriculture, based on three major thesauri in the area: AGROVOC from the Food and Agriculture Organization of the UN, CABT from CAB International, and NALT from the US National Agricultural Library.
 
 7. [GLTEN Metadata Portal](https://glten.org/) (the Global Long-Term agricultural Experiments Network) is an international project which aims to improve access to and re-use of long-term experiment data. The metadata portal uses the DataCite schema and can provide persistent identifiers for experiments. The metadata is extended with additional semantic annotations to capture key experiment details including design, treatment factors and site characterisation (soil and climate). The Metadata portal provides a public RESTful query API (http://glten.org/api/v0/public/experiment). The project is facilitated by [Rothamsted Research](https://www.rothamsted.ac.uk/).  
 
